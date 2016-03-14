@@ -20,6 +20,8 @@ gem 'jquery-rails'
 
 gem 'turbolinks'
 
+gem 'simple_form'
+
 gem 'jbuilder', '~> 1.2'
 
 group :doc do
