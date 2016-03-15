@@ -20,6 +20,8 @@ gem 'jquery-rails'
 
 gem 'turbolinks'
 
+gem 'devise-bootstrap-views'
+
 gem 'simple_form'
 
 gem 'jbuilder', '~> 1.2'
