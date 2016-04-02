@@ -1,6 +1,7 @@
 class Instructor::CoursesController < ApplicationController
 
   before_action :authenticate_user!
+  
   def new
     @course = Course.new
   end
@@ -21,8 +22,6 @@ class Instructor::CoursesController < ApplicationController
   private
   
   def course_params
-  params.require(:course).permit(:title, :description, :cost)  
+    params.require(:course).permit(:title, :description, :cost)  
   end
-
-
 end
