@@ -20,6 +20,10 @@ gem 'jquery-rails'
 
 gem 'turbolinks'
 
+gem 'carrierwave'
+
+gem 'mini_magick', '~> 4.3.1'
+
 gem 'devise-bootstrap-views'
 
 gem 'simple_form'
