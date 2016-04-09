@@ -18,7 +18,7 @@ gem 'rails_12factor', group: :production
 
 gem 'jquery-rails'
 
-gem 'turbolinks'
+#gem 'turbolinks'
 
 gem 'carrierwave'
 
