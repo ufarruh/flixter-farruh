@@ -18,6 +18,8 @@ gem 'rails_12factor', group: :production
 
 gem 'jquery-rails'
 
+gem 'stripe'
+
 #gem 'turbolinks'
 
 gem 'carrierwave'
