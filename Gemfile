@@ -26,6 +26,8 @@ gem 'carrierwave'
 gem 'mini_magick'
 gem 'carrierwave-aws'
 
+gem 'ranked-model'
+
 gem 'figaro', '~> 1.0.0'
 
 gem "fog", "~> 1.3.1"
