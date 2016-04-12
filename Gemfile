@@ -18,6 +18,8 @@ gem 'rails_12factor', group: :production
 
 gem 'jquery-rails'
 
+gem 'jquery-ui-rails'
+
 gem 'stripe'
 
 #gem 'turbolinks'
