@@ -12,7 +12,7 @@
 </head>
 <body>
 <div id="wrap">
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-default navi">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -22,18 +22,18 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <%= link_to 'Flixter', root_path, class: 'navbar-brand' %>
+      <%= link_to 'Flixter', root_path, class: 'navbar-brand navi' %>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
+      <ul class="nav navbar-nav navi">
         <li><%= link_to 'See All Courses', courses_path %></li>
       </ul>
       </li>
       </ul>
 
-      <ul class="nav navbar-nav navbar-right">
+      <ul class="nav navbar-nav navbar-right navi">
         <% if user_signed_in? %>
         <li><%= link_to 'My Dashboard', dashboard_path %></li>
         <li><%= link_to 'Log Out', destroy_user_session_path, method: :delete %></li>
@@ -57,6 +57,7 @@
 <%= yield %>
 </div>
 <br class="clr" />
+
 <div id="footer">
 <div class="container">
 <b>Footer Here</b>
